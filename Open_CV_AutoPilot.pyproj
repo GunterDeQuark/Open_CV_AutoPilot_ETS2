@@ -22,6 +22,12 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="directkeys.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="lanes.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="Open_CV_AutoPilot.py" />
   </ItemGroup>
   <ItemGroup>
